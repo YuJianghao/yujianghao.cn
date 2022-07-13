@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite-ssg build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -10,6 +10,7 @@
     "@antfu/eslint-config": "^0.25.2",
     "@types/markdown-it-link-attributes": "^3.0.1",
     "@vitejs/plugin-vue": "^2.3.3",
+    "@vueuse/head": "^0.7.6",
     "eslint": "^8.19.0",
     "happy-dom": "^6.0.3",
     "markdown-it": "^13.0.1",
@@ -21,13 +22,13 @@
     "unplugin-vue-components": "^0.21.1",
     "vite": "^2.9.14",
     "vite-plugin-md": "^0.18.1",
-    "vite-plugin-pages": "^0.25.0"
+    "vite-plugin-pages": "^0.25.0",
+    "vite-ssg": "^0.20.2",
+    "vue-router": "^4.1.2"
   },
   "dependencies": {
-    "@vueuse/head": "^0.7.6",
     "dayjs": "^1.11.3",
     "prism-theme-vars": "^0.2.3",
-    "vue": "^3.2.37",
-    "vue-router": "^4.1.2"
+    "vue": "^3.2.37"
   }
 }
