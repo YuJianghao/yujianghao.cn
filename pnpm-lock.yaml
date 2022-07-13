@@ -2,10 +2,15 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': ^0.25.2
+  '@types/markdown-it-link-attributes': ^3.0.1
   '@vitejs/plugin-vue': ^2.3.3
+  '@vueuse/head': ^0.7.6
   eslint: ^8.19.0
   happy-dom: ^6.0.3
   markdown-it: ^13.0.1
+  markdown-it-link-attributes: ^4.0.0
+  markdown-it-prism: ^2.2.4
+  prism-theme-vars: ^0.2.3
   prismjs: ^1.28.0
   typescript: ^4.7.4
   unplugin-vue-components: ^0.21.1
@@ -16,15 +21,20 @@ specifiers:
   vue-router: ^4.1.2
 
 dependencies:
+  '@vueuse/head': registry.npmmirror.com/@vueuse/head/0.7.6_vue@3.2.37
+  prism-theme-vars: registry.npmmirror.com/prism-theme-vars/0.2.3
   vue: registry.npmmirror.com/vue/3.2.37
   vue-router: registry.npmmirror.com/vue-router/4.1.2_vue@3.2.37
 
 devDependencies:
   '@antfu/eslint-config': registry.npmmirror.com/@antfu/eslint-config/0.25.2_4x5o4skxv6sl53vpwefgt23khm
+  '@types/markdown-it-link-attributes': registry.npmmirror.com/@types/markdown-it-link-attributes/3.0.1
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/2.3.3_vite@2.9.14+vue@3.2.37
   eslint: registry.npmmirror.com/eslint/8.19.0
   happy-dom: registry.npmmirror.com/happy-dom/6.0.3
   markdown-it: registry.npmmirror.com/markdown-it/13.0.1
+  markdown-it-link-attributes: registry.npmmirror.com/markdown-it-link-attributes/4.0.0
+  markdown-it-prism: registry.npmmirror.com/markdown-it-prism/2.2.4
   prismjs: registry.npmmirror.com/prismjs/1.28.0
   typescript: registry.npmmirror.com/typescript/4.7.4
   unplugin-vue-components: registry.npmmirror.com/unplugin-vue-components/0.21.1_vite@2.9.14+vue@3.2.37
@@ -328,6 +338,14 @@ packages:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/linkify-it/-/linkify-it-3.0.2.tgz}
     name: '@types/linkify-it'
     version: 3.0.2
+    dev: true
+
+  registry.npmmirror.com/@types/markdown-it-link-attributes/3.0.1:
+    resolution: {integrity: sha512-K8RnNb1q8j7rDOJbMF7AnlhCC/45BjrQ8z3WZWOrvkBIl8u9RXvmBdG/hfpnmK1JhhEZcmFEKWt+ilW1Mly+2Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/markdown-it-link-attributes/-/markdown-it-link-attributes-3.0.1.tgz}
+    name: '@types/markdown-it-link-attributes'
+    version: 3.0.1
+    dependencies:
+      '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
     dev: true
 
   registry.npmmirror.com/@types/markdown-it/12.2.3:
@@ -683,6 +701,17 @@ packages:
       vue: registry.npmmirror.com/vue/3.2.37
       vue-demi: registry.npmmirror.com/vue-demi/0.13.4_vue@3.2.37
     dev: true
+
+  registry.npmmirror.com/@vueuse/head/0.7.6_vue@3.2.37:
+    resolution: {integrity: sha512-cOWqCkT3WiF5oEpw+VVEWUJd9RLD5rc7DmnFp3cePsejp+t7686uKD9Z9ZU7Twb7R/BI8iexKTmXo9D/F3v6UA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vueuse/head/-/head-0.7.6.tgz}
+    id: registry.npmmirror.com/@vueuse/head/0.7.6
+    name: '@vueuse/head'
+    version: 0.7.6
+    peerDependencies:
+      vue: '>=3'
+    dependencies:
+      vue: registry.npmmirror.com/vue/3.2.37
+    dev: false
 
   registry.npmmirror.com/@vueuse/metadata/8.9.2:
     resolution: {integrity: sha512-g2s2BeyeEtJElmMFfFPnM+BTvnt0omniyvz8U18/zXDpQIMGozlNQgHoFeratyMfgVBhH/u2VKzmchChtDsgPQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vueuse/metadata/-/metadata-8.9.2.tgz}
@@ -2947,6 +2976,21 @@ packages:
       sourcemap-codec: registry.npmmirror.com/sourcemap-codec/1.4.8
     dev: true
 
+  registry.npmmirror.com/markdown-it-link-attributes/4.0.0:
+    resolution: {integrity: sha512-ssjxSLlLfQBkX6BvAx1rCPrx7ZoK91llQQvS3P7KXvlbnVD34OUkfXwWecN7su/7mrI/HOW0RI5szdJOIqYC3w==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/markdown-it-link-attributes/-/markdown-it-link-attributes-4.0.0.tgz}
+    name: markdown-it-link-attributes
+    version: 4.0.0
+    dev: true
+
+  registry.npmmirror.com/markdown-it-prism/2.2.4:
+    resolution: {integrity: sha512-7oQVppKjiZqVQo7s7eLTIs3o/0hdvqAWDW8lvRel6eUCGD4iXjKbSZjvdHZFA2ZnCkQUF47kbvtWZDVQrv7zyQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/markdown-it-prism/-/markdown-it-prism-2.2.4.tgz}
+    name: markdown-it-prism
+    version: 2.2.4
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      prismjs: registry.npmmirror.com/prismjs/1.28.0
+    dev: true
+
   registry.npmmirror.com/markdown-it/13.0.1:
     resolution: {integrity: sha512-lTlxriVoy2criHP0JKRhO2VDG9c2ypWCsT237eDiLqi09rmbKoUetyGHq2uOIRoRS//kfoJckS0eUzzkDR+k2Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/markdown-it/-/markdown-it-13.0.1.tgz}
     name: markdown-it
@@ -3434,6 +3478,12 @@ packages:
     version: 1.2.1
     engines: {node: '>= 0.8.0'}
     dev: true
+
+  registry.npmmirror.com/prism-theme-vars/0.2.3:
+    resolution: {integrity: sha512-lpRg8GWfxu38m4rZwjrvOxeHlmL4tERhe9sTjrC47HMu6uCEch3bLUQVNlISoEq9Z24g5Xm+B7AKdyiKSevktg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/prism-theme-vars/-/prism-theme-vars-0.2.3.tgz}
+    name: prism-theme-vars
+    version: 0.2.3
+    dev: false
 
   registry.npmmirror.com/prismjs/1.28.0:
     resolution: {integrity: sha512-8aaXdYvl1F7iC7Xm1spqSaY/OJBpYW3v+KJ+F17iYxvdc8sfjW194COK5wVhMZX45tGteiBQgdvD/nhxcRwylw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/prismjs/-/prismjs-1.28.0.tgz}
