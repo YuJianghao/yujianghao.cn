@@ -1,17 +1,14 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { routerKey, useRoute } from 'vue-router'
+import { useRoute } from 'vue-router'
 import { formatTime } from '../utils'
 defineProps<{
   frontmatter: any
 }>()
 const route = useRoute()
-
-const hasBack = computed(() => route.path !== '/posts/')
 </script>
 
 <template>
-  <main>
+  <main px7 py10>
     <div class="prose m-auto mb-8">
       <h1>
         {{ frontmatter.title }}
@@ -20,11 +17,14 @@ const hasBack = computed(() => route.path !== '/posts/')
         {{ formatTime(frontmatter.date) }}
       </p>
     </div>
-    <article mb-8>
+    <article>
       <slot />
     </article>
-    <div v-if="hasBack" class="prose m-auto font-mono no-underline opacity-50 hover:opacity-75">
-      <router-link to="/posts/">
+    <div v-if="route.path !== '/'" class="prose m-auto mt-8 mb-8 ">
+      <router-link
+        :to="route.path.split('/').slice(0, -1).join('/') || '/'"
+        class="font-mono no-underline opacity-50 hover:opacity-75"
+      >
         cd ..
       </router-link>
     </div>
