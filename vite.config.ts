@@ -5,7 +5,10 @@ import Markdown from 'vite-plugin-md'
 import Components from 'unplugin-vue-components/vite'
 import Prism from 'markdown-it-prism'
 import LinkAttributes from 'markdown-it-link-attributes'
-const markdownWrapperClasses = 'prose prose-sm m-auto text-left'
+import UnoCSS from 'unocss/vite'
+import { presetAttributify, presetIcons, presetUno } from 'unocss'
+
+const markdownWrapperClasses = 'prose prose-sm'
 
 export default defineConfig({
   plugins: [
@@ -18,6 +21,7 @@ export default defineConfig({
     Markdown({
       headEnabled: true,
       wrapperClasses: markdownWrapperClasses,
+      wrapperComponent: 'post',
       markdownItSetup(md) {
         // https://prismjs.com/
         md.use(Prism)
@@ -36,6 +40,25 @@ export default defineConfig({
       // allow auto import and register components used in markdown
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
       dts: 'src/components.d.ts',
+    }),
+    UnoCSS({
+      theme: {
+        fontFamily: {
+          sans: '"Inter", Inter var,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji',
+        },
+      },
+      presets: [
+        presetIcons({
+          extraProperties: {
+            'display': 'inline-block',
+            'height': '1.2em',
+            'width': '1.2em',
+            'vertical-align': 'text-bottom',
+          },
+        }),
+        presetAttributify(),
+        presetUno(),
+      ],
     }),
   ],
 })

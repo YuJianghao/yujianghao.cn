@@ -1,9 +1,7 @@
 ---
 date: 2022-03-26
+title: 如何使用 JavaScript 获取 HTML 文本的显示范围
 ---
-
-# 如何使用 JavaScript 获取 HTML 文本的显示范围
-
 先放答案。
 
 ```js
