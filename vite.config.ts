@@ -1,3 +1,4 @@
+import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
@@ -22,6 +23,11 @@ import 'prismjs/components/prism-jsdoc'
 const markdownWrapperClasses = 'prose m-auto'
 
 export default defineConfig({
+  resolve: {
+    alias: [
+      { find: '~/', replacement: `${resolve(__dirname, 'src')}/` },
+    ],
+  },
   plugins: [
     Vue({
       include: [/\.vue$/, /\.md$/],
