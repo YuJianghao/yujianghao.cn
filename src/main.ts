@@ -3,8 +3,8 @@ import AppVue from './App.vue'
 import routes from '~pages'
 import 'uno.css'
 import './styles/main.css'
-import './styles/markdown.css'
 import './styles/prose.css'
+import './styles/markdown.css'
 
 export const createApp = ViteSSG(
   // the root component

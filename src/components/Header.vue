@@ -4,8 +4,7 @@ const isDark = useDark()
 </script>
 
 <template>
-  <div>
-    {{ isDark }}
+  <div h-60px flex items-center px-4>
     <span op80>
       <img img-dark src="../assets/logo-white.png" alt="logo" class="logo-img">
       <img img-light src="../assets/logo-black.png" alt="logo" class="logo-img">
