@@ -11,6 +11,7 @@ specifiers:
   '@vueuse/head': ^0.7.6
   dayjs: ^1.11.3
   eslint: ^8.19.0
+  gray-matter: ^4.0.3
   happy-dom: ^6.0.3
   markdown-it: ^13.0.1
   markdown-it-link-attributes: ^4.0.0
@@ -42,6 +43,7 @@ devDependencies:
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/2.3.3_vite@2.9.14+vue@3.2.37
   '@vueuse/head': registry.npmmirror.com/@vueuse/head/0.7.6_vue@3.2.37
   eslint: registry.npmmirror.com/eslint/8.19.0
+  gray-matter: registry.npmmirror.com/gray-matter/4.0.3
   happy-dom: registry.npmmirror.com/happy-dom/6.0.3
   markdown-it: registry.npmmirror.com/markdown-it/13.0.1
   markdown-it-link-attributes: registry.npmmirror.com/markdown-it-link-attributes/4.0.0

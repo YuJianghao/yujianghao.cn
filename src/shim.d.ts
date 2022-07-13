@@ -12,3 +12,9 @@ declare module "*.md" {
   const Component: ComponentOptions
   export default Component
 }
+
+declare module 'vue-router' {
+  interface RouteMeta {
+    frontmatter: any
+  }
+}
