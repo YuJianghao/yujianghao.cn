@@ -9,6 +9,10 @@
     </span>
     <nav class="nav" flex="~ gap4" flex-1 items-center op60 cursor-pointer>
       <div flex-1 />
+      <router-link to="/posts" title="Blog">
+        <span class="lt-md:hidden">Blog</span>
+        <div i-ri-article-line md:hidden />
+      </router-link>
       <a href="https://github.com/YuJianghao" target="_blank" title="GitHub">
         <div i-uil-github-alt />
       </a>
@@ -24,6 +28,7 @@
 
 .nav a {
   transition: opacity 0.2s ease;
+  text-decoration: none;
   color: inherit;
 }
 
