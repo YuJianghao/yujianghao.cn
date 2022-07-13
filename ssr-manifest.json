@@ -1,0 +1,151 @@
+{
+  "vite/modulepreload-polyfill": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+@vue+shared@3.2.37/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+@vue+reactivity@3.2.37/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+@vue+runtime-core@3.2.37/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+@vue+runtime-dom@3.2.37/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+vue-router@4.1.2_vue@3.2.37/node_modules/vue-router/dist/vue-router.mjs": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+@vueuse+head@0.7.6_vue@3.2.37/node_modules/@vueuse/head/dist/index.mjs": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+vite-ssg@0.20.2_gzp4g6ojpfo4spm3t4qmi2yojq/node_modules/vite-ssg/dist/chunks/state.mjs": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+vite-ssg@0.20.2_gzp4g6ojpfo4spm3t4qmi2yojq/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+vite-ssg@0.20.2_gzp4g6ojpfo4spm3t4qmi2yojq/node_modules/vite-ssg/dist/index.mjs": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+@vueuse+shared@8.9.2_vue@3.2.37/node_modules/@vueuse/shared/index.mjs": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+@vueuse+core@8.9.2_vue@3.2.37/node_modules/@vueuse/core/index.mjs": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/logics.ts": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/components/ToggleTheme.vue": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/assets/logo-white.png": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/assets/logo-black.png": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/components/Navbar.vue?vue&type=style&index=0&scoped=true&lang.css": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "plugin-vue:export-helper": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/components/Navbar.vue": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/App.vue": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "vite/preload-helper": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "\u0000commonjsHelpers.js": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "\u0000/home/runner/work/yujianghao.cn/yujianghao.cn/node_modules/.pnpm/registry.npmmirror.com+dayjs@1.11.3/node_modules/dayjs/dayjs.min.js?commonjs-module": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+dayjs@1.11.3/node_modules/dayjs/dayjs.min.js": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/utils.ts": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/components/Post.vue": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/pages/index.md": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "../../../../../@vite-plugin-pages/generated-pages?id=~pages": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "../../../../../__uno.css": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/styles/main.css": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/styles/prose.css": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/styles/markdown.css": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/main.ts": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "index.html": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "assets/app.ddd9ab5e.js-unocss-hash.css": [
+    "/assets/logo-white.e7f4b038.png",
+    "/assets/logo-black.8e107588.png"
+  ],
+  "src/pages/posts/how-to-get-text-rects-using-javascript.md": [
+    "/assets/how-to-get-text-rects-using-javascript.e5d9d1ed.js"
+  ],
+  "src/components/ListPosts.vue": [
+    "/assets/index.1cd79ba4.js"
+  ],
+  "src/pages/posts/index.md": [
+    "/assets/index.1cd79ba4.js"
+  ]
+}
