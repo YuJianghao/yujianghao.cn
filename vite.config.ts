@@ -8,7 +8,7 @@ import LinkAttributes from 'markdown-it-link-attributes'
 import UnoCSS from 'unocss/vite'
 import { presetAttributify, presetIcons, presetUno } from 'unocss'
 
-const markdownWrapperClasses = 'prose prose-sm'
+const markdownWrapperClasses = 'prose m-auto'
 
 export default defineConfig({
   plugins: [

@@ -10,19 +10,21 @@ const backRoute = `${route.path.split('/').slice(0, 2).join('/')}/`
 
 <template>
   <main>
-    <div class="prose">
+    <div class="prose m-auto mb-8">
       <h1>
         {{ frontmatter.title }}
       </h1>
-      <p>
+      <p mb-8>
         {{ formatTime(frontmatter.date) }}
       </p>
     </div>
-    <article>
+    <article mb-8>
       <slot />
     </article>
-    <router-link :to="backRoute">
-      cd ..
-    </router-link>
+    <div class="prose m-auto font-mono no-underline opacity-50 hover:opacity-75">
+      <router-link :to="backRoute">
+        cd ..
+      </router-link>
+    </div>
   </main>
 </template>
